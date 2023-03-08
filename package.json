@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "test": "node benchmark.js",
-    "start": "node Desafio-Clase-34/desafioClase34.js"
+    "start": "node desafioClase34.js"
   },
   "dependencies": {
     "autocannon": "^7.10.0",
