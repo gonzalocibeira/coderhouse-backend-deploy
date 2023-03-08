@@ -1,0 +1,33 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "node benchmark.js",
+    "start": "node Desafio-Clase-34/desafioClase34.js"
+  },
+  "dependencies": {
+    "autocannon": "^7.10.0",
+    "bcrypt": "^5.1.0",
+    "compression": "^1.7.4",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "firebase": "^9.15.0",
+    "firebase-admin": "^11.4.1",
+    "handlebars": "^4.7.7",
+    "knex": "^2.3.0",
+    "log4js": "^6.8.0",
+    "minimist": "^1.2.8",
+    "mongoose": "^6.8.3",
+    "mysql": "^2.18.1",
+    "normalizr": "^3.6.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.5.4",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}

@@ -1,0 +1,25 @@
+<div>
+    <h1>Hola {{username}}!</h1>
+    <form action="/logout" method="get">
+        <input type="submit" name="" id="" value="logout">
+    </form>
+</div>
+<form action="/api/productos-test" style="margin-top:15px; border: solid 2px black; padding:4px">
+    <label for="">Desafio clase 22 consigna 1 →</label>
+    <input type="submit" name="" id="" value="Go to /api/productos-test">
+</form>
+<h2>Chat </h2>
+<form id="chatForm">
+    <input id="mailIn" type="text" placeholder="email">
+    <input id="nameIn" type="text" placeholder="name">
+    <input id="lastIn" type="text" placeholder="last name">
+    <input id="ageIn" type="text" placeholder="age">
+    <input id="aliasIn" type="text" placeholder="alias">
+    <input id="mailIn" type="text" placeholder="email">
+    <input id="picIn" type="text" placeholder="avatar URL">
+    <input id="msgIn" type="text" placeholder="message">
+    <input type="submit" value="send">
+</form>
+<div id="chatPool"></div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="../client.socket.js"></script>
